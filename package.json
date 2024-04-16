@@ -1,11 +1,25 @@
 {
   "name": "pokemonv10",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Pokemon json file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gers08/pokemonv10"
+  },
+  "dependencies": {
+    "esbuild": "^0.16.10",
+    "mysql2": "^3.9.4",
+    "pokemonv10": "^1.0.1",
+    "preact": "^10.5.15",
+    "preact-render-to-string": "^5.1.19",
+    "probe-image-size": "^7.2.3",
+    "sockjs": "^0.3.21",
+    "source-map-support": "^0.5.21"
+  }
 }
